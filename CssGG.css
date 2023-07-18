@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #386641;
+	margin: 0;
+	padding: 0;
+}
+
+/* LOGIN & REGISTER */
+
+.container-login-register {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ddeddd;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.container-login-register .form-group {
+    margin-bottom: 10px;
+}
+
+.container-login-register .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container-login-register .form-group input[type="text"],
+.container-login-register .form-group input[type="password"],
+.container-login-register .form-group input[type="email"]
+
+ {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+/* BERANDA */
+
+button {
+    padding: 5px 10px;
+    background: #386641;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a {
+    color: #4caf50;
+}
+
+
+.nav {
+	background-color: #72a460;
+}
+
+.LANGGANAN {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.SOSMED ul li {
+  display: inline-block;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  margin: 15px;
+}
+
+/* PENJUALAN */
+
+#side_nav {
+	background: #72a460;
+	min-width: 250px;
+	max-width: 250px;
+	transition: all ease-in 0.4s;
+}
+
+.content {
+	min-height: 100vh;
+	width: 100%;
+}
+
+hr.h-color {
+	background: white;
+}
+
+
+.sidebar .list-unstyled a:hover {
+	background: #386641;
+	transition: all ease-in 0.2s;
+	border-radius: 8px;
+
+}
+
+.sidebar li a {
+	color: white;
+
+}
+
+
+.sidebar {
+
+}
+
+.sidebar-hide  {
+	width: 0px;
+}
+
+/* INPUT PRODUK */
+
+
+.INPUT_PRODUK {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.input_barang {
+    align-content: center;
+}
+
+.input_barang form {
+    display: inline-block;
+}
+
+/* DETAIL PRODUK */
+
+.DETAIL_PRODUK1 {
+	font-family: 'Raleway', sans-serif;
+}
+
+}
+
+/* FOOTER */
+
+footer {
+	color: white;
+	background-color: #72a460;
+}
+
+footer .SOSMED ul li {
+	display: inline-block;
+}
+
+
+/* SLIDER */
+
+* {
+  box-sizing: border-box;
+}
+
+.container-slider {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.MySlide {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.MySlide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
